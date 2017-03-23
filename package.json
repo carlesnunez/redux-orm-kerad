@@ -1,49 +1,25 @@
 {
-  "_args": [
-    [
-      "redux-orm",
-      "/Users/carles.nunez/Documents/git/KeradProjects/leader-mobile"
-    ]
+  "name": "redux-orm-kerad",
+  "version": "1.0.1",
+  "description": "Redux ORM fix for redux-orm main",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:carlesnunez/redux-orm-kerad.git"
+  },
+  "keywords": [
+    "redux-orm"
   ],
-  "_from": "redux-orm@latest",
-  "_id": "redux-orm@0.9.0-rc.3",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/redux-orm",
-  "_nodeVersion": "7.4.0",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/redux-orm-0.9.0-rc.3.tgz_1484298827089_0.09400820964947343"
-  },
-  "_npmUser": {
-    "email": "kaikkonentommi@gmail.com",
-    "name": "tommikaikkonen"
-  },
-  "_npmVersion": "4.0.5",
-  "_phantomChildren": {},
-  "_requested": {
-    "name": "redux-orm",
-    "raw": "redux-orm",
-    "rawSpec": "",
-    "scope": null,
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/redux-orm/-/redux-orm-0.9.0-rc.3.tgz",
-  "_shasum": "48e3f6984d104e09734ad6a006376ee791841682",
-  "_shrinkwrap": null,
-  "_spec": "redux-orm",
-  "_where": "/Users/carles.nunez/Documents/git/KeradProjects/leader-mobile",
-  "author": {
-    "email": "tommi.kaikkonen@aalto.fi",
-    "name": "Tommi Kaikkonen"
-  },
+  "author": "Carles Nunez Tomeo",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tommikaikkonen/redux-orm/issues"
+    "url": "https://github.com/carlesnunez/redux-orm-kerad/issues"
   },
+  "homepage": "https://github.com/carlesnunez/redux-orm-kerad",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
   "dependencies": {
     "babel-runtime": "^6.6.1",
     "immutable-ops": "^0.5.2",
@@ -75,36 +51,5 @@
     "sinon-chai": "^2.8.0",
     "webpack": "^1.13.2",
     "yargs": "^5.0.0"
-  },
-  "directories": {},
-  "dist": {
-    "shasum": "48e3f6984d104e09734ad6a006376ee791841682",
-    "tarball": "https://registry.npmjs.org/redux-orm/-/redux-orm-0.9.0-rc.3.tgz"
-  },
-  "gitHead": "9c1802f4646c707d217b4ab167fbccb838fa7be7",
-  "homepage": "https://github.com/tommikaikkonen/redux-orm#readme",
-  "keywords": [
-    "redux",
-    "orm"
-  ],
-  "license": "MIT",
-  "main": "lib/index.js",
-  "maintainers": [
-    {
-      "email": "kaikkonentommi@gmail.com",
-      "name": "tommikaikkonen"
-    }
-  ],
-  "name": "redux-orm",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tommikaikkonen/redux-orm.git"
-  },
-  "scripts": {
-    "prepublish": "make build",
-    "test": "make test"
-  },
-  "version": "0.9.0-rc.3"
+  }
 }
