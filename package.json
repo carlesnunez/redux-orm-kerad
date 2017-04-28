@@ -1,6 +1,6 @@
 {
   "name": "redux-orm-kerad",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Redux ORM fix for redux-orm main",
   "main": "lib/index.js",
   "repository": {
@@ -16,10 +16,6 @@
     "url": "https://github.com/carlesnunez/redux-orm-kerad/issues"
   },
   "homepage": "https://github.com/carlesnunez/redux-orm-kerad",
-  "files": [
-    "index.js",
-    "LICENSE"
-  ],
   "dependencies": {
     "babel-runtime": "^6.6.1",
     "immutable-ops": "^0.5.2",

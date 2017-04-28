@@ -200,6 +200,11 @@ const Model = class Model {
 
         const declaredFieldNames = Object.keys(this.fields);
 
+        if (props.hasOwnProperty(this.idAttribute) && this.hasId(props[this.idAttribute]) && this.updateIfIdExists) {
+          const model = this.withId(props.id);
+          return model.update(props);
+        }
+
         declaredFieldNames.forEach(key => {
             const field = this.fields[key];
             const valuePassed = userProps.hasOwnProperty(key);
